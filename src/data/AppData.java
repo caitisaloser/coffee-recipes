@@ -24,7 +24,7 @@ public class AppData {
 	private static String getAppDirectory() {
 		String os = System.getProperty("os.name").toLowerCase();
 		String userHome = System.getProperty("user.home");
-		String appName = "user_data";
+		String appName = "Cait Hope Apps" + File.separator + "Coffee Recipes";
 		
 		if (os.contains("win")) {
 			return System.getenv("APPDATA") + File.separator + appName;
