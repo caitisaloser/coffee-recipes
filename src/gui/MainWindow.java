@@ -14,7 +14,7 @@ public class MainWindow extends JFrame {
     	
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
-        setTitle("Jayd's Recipes");
+        setTitle("Coffee Recipes");
         
         MainScreen mainScreen = new MainScreen();
         add(mainScreen);
