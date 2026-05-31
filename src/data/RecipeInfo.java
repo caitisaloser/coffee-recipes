@@ -6,6 +6,8 @@ public class RecipeInfo {
     public String ingredients;
     public String instructions;
     public String imagePath;
+    
+    public RecipeInfo() {}
 
     public RecipeInfo(String name, String ingredients, String instructions, String imagePath) {
         this.name = name;

@@ -47,7 +47,8 @@ public class AppData {
 			ArrayList<RecipeInfo> data = gson.fromJson(reader, listType);
 			
 			return data == null ? new ArrayList<>() : data;
-		} catch (IOException e) {
+			
+		} catch (Exception e) {
 			System.err.println("Error loading data: " + e.getMessage());
 			return new ArrayList<>();
 		}
